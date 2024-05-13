@@ -1,0 +1,51 @@
+*{
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: wheat;
+    text-align: justify;
+}
+
+img{
+    width: 150px;
+}
+
+div{
+    width: 600px;
+}
+
+#rosa{
+    width: 400PX;
+    top: 170px;
+    left: 180PX;
+    position: relative;
+    background: #44444470;
+    z-index: 1;
+}
+
+div:nth-child(2){
+    background: #B0C3D9;
+}
+
+li:nth-child(2){
+    background: #8FC9D9;
+    color:#000
+}
+
+:nth-child(3){
+    background: #90B2DA;
+}
+
+:nth-child(4){
+    background: #90B2DA;
+}
+
+:nth-child(5){
+    background: #8FD9D1;
+}
+
+:nth-child(6){
+    background: #9C8FD9;
+}
